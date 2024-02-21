@@ -1,0 +1,120 @@
+Key takeaways from Airbnb’s winter redesign by Daniel de Mello Feb 2024 UX Collective
+Open in app
+Sign up
+Sign in
+Write
+Sign up
+Sign in
+Key takeaways from Airbnb’s winter redesign
+When Airbnb announces something new it’s the result of months of hard work thinking and testing.
+Daniel de Mello
+·
+Follow
+Published in
+UX Collective
+·
+5 min read
+·
+Feb 4 2024
+
+25
+Listen
+Share
+Airbnb is not like most software companies.
+Much like Apple they launch major updates only 2 times a year. So when they announce something new it’s the result of months of hard work thinking and testing.
+More than that since 2021 they had on their team 2 star designers
+Hiroki Asai
+and
+Jony Ive
+. The duo were key Apple executives during the Steve Jobs era.
+As a fan of Airbnb and curious about the work of Jony and Hiroki I spent hours studying their
+Winter 2023 product release.
+I’ve read PRs watched hosts commenting on the launch on YouTube and listened to Brian Chesky’s view.
+Here are the 3 key lessons that stood out for me
+The returns of great design elegant decisions for big pain points
+Over
+450 000.
+That’s the amount of tech workers that were laid off between 2021 and today.
+In that grim scenario design teams need to know well how to articulate the probable returns of their design decisions. Solving for trust and ease of use are known clear
+drivers of conversions
+and can be used as selling points for design decisions.
+Airbnb’s latest launch shows us how great designers can come up with simple solutions to the two big pain points.
+Designing for trust the Guest Favorite category
+Their research team found out that trust and reliability were a huge bottleneck in their experience.
+For guests the moment of arriving at a property was full of unwanted surprises the “dedicated workspace” was actually a small table on a dirty corner. The hot tub advertised is there but broken.
+In face of that the goal becomes how to solve the problem of building trust at scale. That issue was solved elegantly by adding another tier of hosts called Guest Favorites.
+The addition reflected on the UI in two ways
+Search results that optimize for showing properties in that category
+Beautifully designed icons and tags to differentiate the properties.
+Designing for ease of use organizing the listings tab
+In Brian’s mind to have a great end user experience you need great hosts. To have great hosts you need to provide them with great tools. And the listing experience on Airbnb was far from that.
+On
+the launch video
+Brian shows how hard it was to find the section and actually use it.
+The interesting part their approach to solving that wasn’t necessarily a complete overhaul of the app. If you look closely the pain point was solved with
+Better information architecture for ease of access
+Search and better filters.
+Not to say it’s easy to do but the output is a simplified design that makes the experience much better. They prioritized what made sense hid less used features and made things work.
+From the
+words of a host
+“It’s going to make so that you as a host are able to update your listing more easily. You’re definitely going to get more bookings with a properly filled out listing”.
+Better listings more bookings more revenues for Airbnb. Proper results driven design.
+The end of flat design?
+When the most design driven of the Fortune 500 CEOs talk about design trends we listen
+“By the way the design is a whole new aesthetic. I’d like to make the announcement that I think flat design is over or ending. I think if you remember the 2000s was dominated by skeuomorphism.
+The 2010s have been dominated with the launch of iOS seven by flat design. And I think we’re going to move back into a world with color texture dimensionality more haptic feedback but I don’t think it’s going to be skeuomorphism where it pretends to be a wood grain to reference a dashboard or leather but I think it’s going to have a sense of dimension.”
+His thesis is that we’re spending more time on screens so we want them to have some elements of a natural environment. The new design paradigm embraces light texture and playfulness.
+He also argues that AI can support the creation of such more interactive interfaces.
+Airbnb’s icons were probably designed by a professional artist but we can definitely create something similar with AI. To test that I’ve tried to replicate one of their icons on Midjourney.
+Here’s what I got
+I’d say that’s close enough.
+Simplicity isn’t going anywhere. In fact most of Airbnb’s app is very straightforward and deeply focused on clarity and ease of use. Their navigation is clear and their brand’s colors are only used strategically.
+But we might be seeing the rise of a new kind of design style.
+Leveraging AI for ease of use
+Another issue they found was that people just weren’t using the photo tour feature around 10% did .
+Since photo tours are better organized than the standard sequence of images it made for worse listings overall. And a bad listing might mean the factor that makes a person decide to go for the certainty of a hotel instead.
+The solution they chose was very interesting using AI to sort the images automatically and reduce the work needed from the host. That brought the user flow of adding and sorting images down to one single click. Massively better experience.
+As a side note it’s interesting to see how they leverage
+Labor Illusion
+. Labor Illusion is a psychological principle that states that people value things more when they see the work behind them. Airbnb “show the work” that AI is doing through a reshuffling animation.
+Market leaders as the owners of data and large pockets will be expected to use AI smartly. As the
+Innovator s Dilemma
+tells us it’s unlikely to expect it will be used in a completely disruptive way but it sure should bring their products to the next level.
+Airbnb’s photo tour is a great example of that.
+AI is not in the background nor is it at the forefront of the product but users can clearly see how it’s making it better.
+That’s it for this analysis. Thanks for reading it!
+Sources and further reads
+
+Brian’s interview on Lenny’s Podcast
+
+The evolution of UI in 2024
+
+Startups VS Incumbents in the AI era
+UI Design
+Product Management
+Product Design
+Airbnb
+UX
+
+
+25
+Follow
+Written by
+Daniel de Mello
+915 Followers
+·
+Writer for
+UX Collective
+I write about profitable UI/UX product psychology and interesting business stories. Designing/consulting @
+laylinedesign.co
+. Follow me on Twitter @dandemello
+Follow
+Help
+Status
+About
+Careers
+Blog
+Privacy
+Terms
+Text to speech
+Teams

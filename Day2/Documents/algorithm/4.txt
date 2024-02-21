@@ -1,0 +1,281 @@
+In computer science (specifically computational complexity theory), the worst-case complexity measures the resources (e.g. running time, memory) that an algorithm requires given an input of arbitrary size (commonly denoted as n in asymptotic notation). It gives an upper bound on the resources required by the algorithm.
+In the case of running time, the worst-case time complexity indicates the longest running time performed by an algorithm given any input of size n, and thus guarantees that the algorithm will finish in the indicated period of time. The order of growth (e.g. linear, logarithmic) of the worst-case complexity is commonly used to compare the efficiency of two algorithms.
+The worst-case complexity of an algorithm should be contrasted with its average-case complexity, which is an average measure of the amount of resources the algorithm uses on a random input.
+Given a model of computation and an algorithm 
+
+
+
+
+
+A
+
+
+
+
+{\displaystyle {\mathsf {A}}}
+
+ that halts on each input 
+
+
+
+s
+
+
+{\displaystyle s}
+
+, the mapping 
+
+
+
+
+t
+
+
+A
+
+
+
+:
+{
+0
+,
+1
+
+}
+
+⋆
+
+
+→
+
+N
+
+
+
+{\displaystyle t_{\mathsf {A}}\colon \{0,1\}^{\star }\to \mathbb {N} }
+
+ is called the time complexity of 
+
+
+
+
+
+A
+
+
+
+
+{\displaystyle {\mathsf {A}}}
+
+ if, for every input string 
+
+
+
+s
+
+
+{\displaystyle s}
+
+, 
+
+
+
+
+
+A
+
+
+
+
+{\displaystyle {\mathsf {A}}}
+
+ halts after exactly 
+
+
+
+
+t
+
+
+A
+
+
+
+(
+s
+)
+
+
+{\displaystyle t_{\mathsf {A}}(s)}
+
+ steps.
+Since we usually are interested in the dependence of the time complexity on different input lengths, abusing terminology, the time complexity is sometimes referred to the mapping 
+
+
+
+
+t
+
+
+A
+
+
+
+:
+
+N
+
+→
+
+N
+
+
+
+{\displaystyle t_{\mathsf {A}}\colon \mathbb {N} \to \mathbb {N} }
+
+, defined by the maximal complexity
+of inputs 
+
+
+
+s
+
+
+{\displaystyle s}
+
+ with length or size 
+
+
+
+≤
+n
+
+
+{\displaystyle \leq n}
+
+.
+Similar definitions can be given for space complexity, randomness complexity, etc.
+Very frequently, the complexity 
+
+
+
+
+t
+
+
+A
+
+
+
+
+
+{\displaystyle t_{\mathsf {A}}}
+
+ of an algorithm 
+
+
+
+
+
+A
+
+
+
+
+{\displaystyle {\mathsf {A}}}
+
+ is given in asymptotic Big-O Notation, which gives its growth rate in the form 
+
+
+
+
+t
+
+
+A
+
+
+
+=
+O
+(
+g
+(
+n
+)
+)
+
+
+{\displaystyle t_{\mathsf {A}}=O(g(n))}
+
+ with a certain real valued comparison function 
+
+
+
+g
+(
+n
+)
+
+
+{\displaystyle g(n)}
+
+ and the meaning:
+Quite frequently, the wording is:
+or even only:
+Consider performing insertion sort on 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ numbers on a random-access machine. The best-case for the algorithm is when the numbers are already sorted, which takes 
+
+
+
+O
+(
+n
+)
+
+
+{\displaystyle O(n)}
+
+ steps to perform the task. However, the input in the worst-case for the algorithm is when the numbers are reverse sorted and it takes 
+
+
+
+O
+(
+
+n
+
+2
+
+
+)
+
+
+{\displaystyle O(n^{2})}
+
+ steps to sort them; therefore the worst-case time-complexity of insertion sort is of 
+
+
+
+O
+(
+
+n
+
+2
+
+
+)
+
+
+{\displaystyle O(n^{2})}
+
+.
